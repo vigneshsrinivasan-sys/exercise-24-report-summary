@@ -1,6 +1,6 @@
 # Exercise 24 — Report Summary
 
-[Live demo](https://vigneshsrinivasan-sys.github.io/exercise-24-report-summary/) · [View source](https://github.com/vigneshsrinivasan-sys/exercise-24-report-summary)
+[Live demo ↗](https://vigneshsrinivasan-sys.github.io/exercise-24-report-summary/) · [HTML source](index.html) · [CSS source](styles.css)
 
 ![Rendered preview](preview.png)
 
@@ -25,4 +25,3 @@ A report interface uses repeated article summaries, grid composition, focus styl
 ## Sequence
 
 **Exercise 24 of 27** · Independent practice
-
