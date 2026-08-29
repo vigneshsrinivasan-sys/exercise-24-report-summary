@@ -1,6 +1,6 @@
 # Exercise 24 — Report Summary
 
-[Live demo ↗](https://vigneshsrinivasan-sys.github.io/exercise-24-report-summary/) · [HTML source](index.html) · [CSS source](styles.css)
+[Live demo](https://vigneshsrinivasan-sys.github.io/exercise-24-report-summary/) · [HTML source](index.html) · [CSS source](styles.css)
 
 ![Rendered preview](preview.png)
 
