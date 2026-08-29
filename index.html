@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 24 — Report Summary</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body class="ds-bg-default">
+    <main>
+      <h1 class="ds-h1 u-mb-24 ds-text-default">Report Overview</h1>
+      <section class="report-overview u-gap-24 u-grid-2">
+        <article class="module cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">
+              Infrastructure Load Balancing
+            </h2>
+            <span class="c-tag c-tag-stable ds-body-3 ds-text-semibold"
+              >Stable</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-text-default"
+            >
+              Load distribution has remained consistent across all availability
+              zones.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Peak usage hit 71% on Monday morning.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              No latency spikes were observed this week.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Nodes active: 12</li>
+              <li>Last update: 5 hours ago</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-warning cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">API Gateway Throughput</h2>
+            <span class="c-tag c-tag-warning ds-body-3 ds-text-semibold"
+              >Warning</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-state-warning"
+            >
+              Request volume exceeded baseline thresholds on two occasions.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Rate limits adjusted for one external client.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Slight drop in response time consistency noted.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Average RPS: 1,140</li>
+              <li>Errors logged: 0.32%</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-critical cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">
+              Payment Reconciliation Pipeline
+            </h2>
+            <span class="c-tag c-tag-critical ds-body-3 ds-text-semibold"
+              >Critical</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-state-danger"
+            >
+              Failed reconciliation events increased by 37% since last cycle.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Batch failures primarily occurred in mid-tier processors.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Escalated to finance and engineering leads for review.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Incidents flagged: 11</li>
+              <li>Status: Under investigation</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-disabled cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">Legacy Metrics Archive</h2>
+            <span class="c-tag c-tag-stable ds-body-3 ds-text-semibold"
+              >Stable</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-text-default"
+            >
+              This module is deprecated and no longer receives live data.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Historical logs remain accessible for audit use.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Redirects to central archive interface.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Last active: March 2024</li>
+              <li>Archive size: 1.2TB</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-warning cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">Auth Service Failover</h2>
+            <span class="c-tag c-tag-warning ds-body-3 ds-text-semibold"
+              >Warning</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-state-warning"
+            >
+              Failover was triggered twice due to regional DNS instability.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              User login attempts temporarily rerouted.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Recovery within SLA for both events.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Region impacted: US-East</li>
+              <li>Failover time: 3.4s</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">Product Sync Integrity</h2>
+            <span class="c-tag c-tag-stable ds-body-3 ds-text-semibold"
+              >Stable</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-text-default"
+            >
+              Product listings were successfully synced across all marketplaces.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              98.9% match rate on attributes verified.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Minor sync delay in the EU region resolved.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Sync interval: 4 hours</li>
+              <li>Issues flagged: 2</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">User Feedback Funnel</h2>
+            <span class="c-tag c-tag-stable ds-body-3 ds-text-semibold"
+              >Stable</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-text-default"
+            >
+              Feedback submissions have returned to pre-promo levels.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Sentiment score held steady at 8.1.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Average response time improved by 12%.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Submissions: 1,240</li>
+              <li>NPS: +32</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-warning cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">Billing Cycle Reports</h2>
+            <span class="c-tag c-tag-warning ds-body-3 ds-text-semibold"
+              >Warning</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-state-warning"
+            >
+              Discrepancies were noted in the Q4 auto-generated invoices.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Issue traced to timezone mismatch in generation script.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Patch deployed on Tuesday with rollback contingency.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Affected clients: 17</li>
+              <li>Correction deadline: Dec 15</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">
+              Multi-region Replication
+            </h2>
+            <span class="c-tag c-tag-stable ds-body-3 ds-text-semibold"
+              >Stable</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-text-default"
+            >
+              All data volumes successfully replicated across target zones.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Sync lag remains under 60s across all nodes.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              No replication errors reported in the past 72 hours.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Total volumes: 46</li>
+              <li>Last sync: 11:28am</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-critical cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">Compliance Audit Trail</h2>
+            <span class="c-tag c-tag-critical ds-body-3 ds-text-semibold"
+              >Critical</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-state-danger"
+            >
+              Multiple entries lacked proper timestamp alignment.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Temporary logging fallback triggered for 18 minutes.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Security review initiated for audit trace gaps.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Incomplete logs: 4%</li>
+              <li>Audit team notified: Yes</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">
+              Feature Flag Deployment
+            </h2>
+            <span class="c-tag c-tag-stable ds-body-3 ds-text-semibold"
+              >Stable</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-text-default"
+            >
+              Controlled rollout of new logic layer completed without rollback.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Exposure capped at 15% user base during test window.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              No production anomalies were logged.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Flags updated: 6</li>
+              <li>Runtime impact: None</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+        <article class="module module-warning cx-module u-stack-16">
+          <header class="module-header cx-module-header">
+            <h2 class="u-mr-8 ds-h2 ds-text-default">Customer Churn Signals</h2>
+            <span class="c-tag c-tag-warning ds-body-3 ds-text-semibold"
+              >Warning</span
+            >
+          </header>
+          <div class="summary cx-module-summary u-stack-8">
+            <p
+              class="summary-primary ds-body-1 ds-text-semibold ds-state-warning"
+            >
+              Churn indicators rose slightly following recent price adjustment.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Retention email flow triggered for 4.3% of users.
+            </p>
+            <p class="summary-secondary ds-body-2 ds-text-default">
+              Regional churn highest in APAC.
+            </p>
+          </div>
+          <footer class="u-stack-16">
+            <ul
+              class="details cx-module-details ds-body-2 ds-text-semibold ds-text-muted u-stack-8"
+            >
+              <li>Weekly churn: 1.6%</li>
+              <li>Support tickets: 38</li>
+            </ul>
+            <button
+              class="c-button c-button-secondary ds-body-2 ds-text-semibold"
+            >
+              Open Report >>
+            </button>
+          </footer>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
